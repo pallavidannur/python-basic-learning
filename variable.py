@@ -1,7 +1,8 @@
-def func():
-x = "pallavi"
-print("hello world")
-print(y)
-y = "darshan"
+def add(*numbers):
+    return sum(numbers)
 
-print(x)
+print (add (1,100,1))
+
+
+add =lambda a,b : a+b
+print (add (1,100))
